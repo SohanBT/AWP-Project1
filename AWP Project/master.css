@@ -1,0 +1,137 @@
+﻿/* styles.css */
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EAE7DC;
+}
+
+/* Header Styles */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D8C3A5;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px; /* Adjust logo size */
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #8E8D8A;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s; /* Added transform for animation */
+}
+
+    .navbar a:hover {
+        color: #E98074; /* Hover effect */
+        transform: scale(1.1); /* Scale effect on hover */
+    }
+
+.profile-icon img {
+    height: 40px; /* Adjust profile icon size */
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+/* Footer Styles */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E85A4F;
+    color: white;
+    padding: 20px;
+}
+
+.quick-links, .social-media, .contact-info {
+    flex: 1;
+    margin: 0 10px; /* Space between sections */
+}
+
+    .quick-links h4, .social-media h4, .contact-info h4 {
+        margin-bottom: 10px;
+        font-family: 'Poppins', sans-serif; /* Heading font */
+    }
+
+    .quick-links ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .quick-links li {
+        margin: 5px 0;
+    }
+
+    .quick-links a {
+        text-decoration: none;
+        color: white;
+        transition: color 0.3s;
+    }
+
+        .quick-links a:hover {
+            color: #D8C3A5; /* Change color on hover */
+        }
+
+.social-media {
+    display: flex;
+    align-items: center;
+}
+
+    .social-media a {
+        margin-right: 10px; /* Space between icons */
+    }
+
+    .social-media img {
+        height: 30px; /* Adjust social media icon size */
+        transition: transform 0.3s; /* Animation for icons */
+    }
+
+        .social-media img:hover {
+            transform: scale(1.1); /* Scale effect on hover */
+        }
+
+.contact-info label {
+    display: block; /* Stack contact info */
+    margin: 5px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column; /* Stack header items on smaller screens */
+        align-items: flex-start;
+    }
+
+    .navbar ul {
+        flex-direction: column; /* Stack navbar items */
+    }
+
+    .footer-container {
+        flex-direction: column; /* Stack footer items */
+        align-items: flex-start;
+    }
+
+        .footer-container > div {
+            margin-bottom: 15px; /* Space between footer sections */
+        }
+}

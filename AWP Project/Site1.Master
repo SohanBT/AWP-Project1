@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="AWP_Project.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>My Website</title>
+    <%--css files--%>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&family=Open+Sans&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="master.css" rel="stylesheet" />
+    <link href="home.css" rel="stylesheet" />
+    <link href="aboutus.css" rel="stylesheet" />
+    <link href="LoginSignup.css" rel="stylesheet" />
+    <link href="contactus.css" rel="stylesheet" />
+    <%--css files--%>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <!-- header -->
+        <header>
+            <div class="header-container">
+                <div class="logo">
+                    <img src="~/Content/logo.png" alt="Logo" />
+                </div>
+                <nav class="navbar">
+                    <ul>
+                        <li><asp:HyperLink runat="server" NavigateUrl="home.aspx" Text="<u>Home</u>" Target="_blank"/></li>
+                        <li><asp:HyperLink runat="server" NavigateUrl="aboutus.aspx" Text="<u>About Us</u>" Target="_blank" /></li>
+                        <li><asp:HyperLink runat="server" NavigateUrl="contactus.aspx" Text="<u>Contact Us</u>" Target="_blank" /></li>
+                    </ul>
+                </nav>
+                <div class="profile-icon">
+                    <asp:ImageButton runat="server" ImageUrl="profile logo.png" AlternateText="Profile" />
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- main content -->
+        <main>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </main>
+        <!-- main content -->
+
+        <!-- footer -->
+        <footer>
+            <div class="footer-container">
+                <div class="quick-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><asp:HyperLink runat="server" NavigateUrl="~/Privacy.aspx" Text="Privacy Policy" /></li>
+                        <li><asp:HyperLink runat="server" NavigateUrl="~/Terms.aspx" Text="Terms of Service" /></li>
+                    </ul>
+                </div>
+                <div class="social-media">
+                    <h4>Follow Us:</h4>
+                    <a href="#"><img src="facebook icon.png" alt="Facebook" /></a>
+                    <a href="#"><img src="x logo.png" alt="X" /></a>
+                    <a href="#"><img src="instagram icon.png" alt="Instagram" /></a>
+                </div>
+                <div class="contact-info">
+                    <h4>Contact Us</h4>
+                    <label>Phone: (123) 456-7890</label><br />
+                    <label>Email: info@example.com</label>
+                </div>
+            </div>
+        </footer>
+        <!-- footer -->
+
+    </form>
+</body>
+</html>

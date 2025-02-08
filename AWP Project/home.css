@@ -1,0 +1,49 @@
+﻿/* styles.css */
+
+/* Office Image Styles */
+.office-image {
+    text-align: center; /* Center the image */
+    margin: 20px 0; /* Space above and below the image */
+}
+
+    .office-image img {
+        width: 100%; /* Make the image responsive */
+        max-width: 1200px; /* Limit the maximum width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+/* Services Section Styles */
+.services-section {
+    text-align: center; /* Center the text */
+    margin: 40px 0; /* Space above and below the section */
+}
+
+    .services-section h2 {
+        font-family: 'Poppins', sans-serif; /* Heading font */
+        color: #E85A4F; /* Heading color */
+        margin-bottom: 20px; /* Space below the heading */
+    }
+
+.services-buttons {
+    display: flex; /* Use flexbox for button layout */
+    flex-wrap: wrap; /* Allow buttons to wrap */
+    justify-content: center; /* Center the buttons */
+}
+
+.service-button {
+    background-color: #E98074; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px 30px; /* Padding for buttons */
+    margin: 10px; /* Space between buttons */
+    font-family: 'Montserrat', sans-serif; /* Button font */
+    font-size: 16px; /* Button font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Transition effects */
+}
+
+    .service-button:hover {
+        background-color: #E85A4F; /* Darker color on hover */
+        transform: scale(1.05); /* Scale effect on hover */
+    }

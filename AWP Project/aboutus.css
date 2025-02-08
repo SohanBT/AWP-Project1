@@ -1,0 +1,109 @@
+﻿/* styles.css */
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EAE7DC;
+}
+
+/* About Section Styles */
+.about-section {
+    text-align: center; /* Center the text */
+    margin: 40px 0; /* Space above and below the section */
+}
+
+    .about-section h2 {
+        font-family: 'Poppins', sans-serif; /* Heading font */
+        color: #E85A4F; /* Heading color */
+        margin-bottom: 30px; /* Space below the heading */
+    }
+
+/* Card Container Styles */
+.card-container {
+    display: flex; /* Use flexbox for card layout */
+    justify-content: center; /* Center the cards */
+    flex-wrap: wrap; /* Allow cards to wrap */
+    gap: 20px; /* Space between cards */
+}
+
+/* Card Styles */
+.card {
+    background-color: #D8C3A5; /* Card background color */
+    color: #8E8D8A; /* Card text color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the card */
+    width: 300px; /* Fixed width for cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transition effects */
+}
+
+    .card:hover {
+        transform: translateY(-5px); /* Lift effect on hover */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+    }
+
+    .card h3 {
+        font-family: 'Poppins', sans-serif; /* Heading font for cards */
+        margin-bottom: 10px; /* Space below the heading */
+    }
+
+    .card p {
+        font-family: 'Roboto', sans-serif; /* Body font for cards */
+        line-height: 1.5; /* Line height for readability */
+    }
+
+/* Developer Cards Styles */
+.developers-container {
+    display: flex; /* Use flexbox for developer card layout */
+    justify-content: center; /* Center the developer cards */
+    gap: 20px; /* Space between developer cards */
+    margin-top: 20px; /* Space above the developer section */
+}
+
+.developer-card {
+    background-color: #EAE7DC; /* Background color for developer cards */
+    color: #8E8D8A; /* Text color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Padding inside the developer card */
+    width: 200px; /* Fixed width for developer cards */
+    text-align: center; /* Center text in developer cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transition effects */
+}
+
+    .developer-card:hover {
+        transform: translateY(-5px); /* Lift effect on hover */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+    }
+
+.developer-image {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Circular image */
+    margin-bottom: 10px; /* Space below the image */
+}
+
+.developer-card h4 {
+    font-family: 'Poppins', sans-serif; /* Heading font for developer names */
+    margin: 10px 0; /* Space above and below the name */
+}
+
+.developer-card p {
+    font-family: 'Roboto', sans-serif; /* Body font for developer roles */
+    margin: 0; /* Remove default margin */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column; /* Stack cards on smaller screens */
+        align-items: center; /* Center cards */
+    }
+
+    .developers-container {
+        flex-direction: column; /* Stack developer cards on smaller screens */
+        align-items: center; /* Center developer cards */
+    }
+}
