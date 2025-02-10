@@ -12,6 +12,8 @@
     <link href="aboutus.css" rel="stylesheet" />
     <link href="LoginSignup.css" rel="stylesheet" />
     <link href="contactus.css" rel="stylesheet" />
+    <link href="profile.css" rel="stylesheet" />
+
     <%--css files--%>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -33,7 +35,7 @@
                     </ul>
                 </nav>
                 <div class="profile-icon">
-                    <asp:ImageButton runat="server" ImageUrl="profile logo.png" AlternateText="Profile" />
+                    <asp:ImageButton runat="server" ImageUrl="profile logo.png" AlternateText="Profile" OnClick="Unnamed5_Click"/> 
                 </div>
             </div>
         </header>

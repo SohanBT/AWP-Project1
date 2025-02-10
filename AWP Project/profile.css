@@ -1,0 +1,99 @@
+﻿body {
+    background-color: #EAE7DC; /* Background Color */
+    color: #8E8D8A; /* Text Color */
+    font-family: 'Roboto', sans-serif; /* Body Text Font */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/*.profile-card {
+    width: 30%;
+    background-color: #D8C3A5;*/ /* Card Background Color */
+    /*border: 2px solid #8E8D8A;*/ /* Card Border Color */
+    /*border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s;*/ /* Animation Effect */
+/*}*/
+
+.profile-card {
+    width: 30%;
+    background-color: #D8C3A5; /* Card Background Color */
+    border: 2px solid #8E8D8A; /* Card Border Color */
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s; /* Animation Effect */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+    justify-content: center; /* Centers content vertically */
+}
+    .profile-card img {
+        width: 100px; /* Adjust image size */
+        height: 100px; /* Maintain aspect ratio */
+        border-radius: 50%; /* Makes image circular */
+        object-fit: cover;
+        margin-bottom: 10px; /* Adds space between image and label */
+    }
+
+    .profile-card label {
+        font-size: 18px;
+        font-weight: bold;
+        color: #8E8D8A;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .profile-card:hover {
+        transform: scale(1.05); /* Scale effect on hover */
+    }
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Circular Image */
+    background-color: #ccc;
+    
+}
+
+.user-name {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.profile-options {
+    width: 65%;
+    background-color: #D8C3A5; /* Options Background Color */
+    border: 2px solid #8E8D8A; /* Options Border Color */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.profile-button {
+    background-color: #E98074; /* Button Background Color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.3s; /* Button Hover Effect */
+}
+
+    .profile-button:hover {
+        background-color: #E85A4F; /* Button Hover Color */
+    }
+
+.feedback-box {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #8E8D8A; /* Input Border Color */
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}

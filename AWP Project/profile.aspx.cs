@@ -7,16 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace AWP_Project
 {
-    public partial class Site1 : System.Web.UI.MasterPage
+    public partial class WebForm5 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
-        }
-
-        protected void Unnamed5_Click(object sender, ImageClickEventArgs e)
-        {
-            Response.Redirect("profile.aspx");
         }
     }
 }
