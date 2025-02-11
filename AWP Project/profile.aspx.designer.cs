@@ -33,13 +33,13 @@ namespace AWP_Project
         protected global::System.Web.UI.WebControls.Label UserNameLabel;
 
         /// <summary>
-        /// ChangeUserNameButton control.
+        /// logoutbtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ChangeUserNameButton;
+        protected global::System.Web.UI.WebControls.Button logoutbtn;
 
         /// <summary>
         /// ChangePasswordButton control.

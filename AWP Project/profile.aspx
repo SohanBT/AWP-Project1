@@ -6,11 +6,11 @@
     <div class="profile-card">
       <asp:Image ID="ProfilePicture" runat="server" ImageUrl="profile logo.png"  CssClass="profile-image" />
       <asp:Label ID="UserNameLabel" runat="server" Text="John Doe" CssClass="user-name" />
+        <asp:Button ID="logoutbtn" runat="server" Text="Logout" CssClass ="profile-button"/>
     </div>
 
     <div class="profile-options">
       <h2>Account Settings</h2>
-      <asp:Button ID="ChangeUserNameButton" runat="server" Text="Change User Name" CssClass="profile-button" />
       <asp:Button ID="ChangePasswordButton" runat="server" Text="Change Password"  CssClass="profile-button" />
 
       <h2>Help Center</h2>

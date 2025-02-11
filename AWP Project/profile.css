@@ -60,6 +60,17 @@
     
 }
 
+/*.profile-logout {
+    background-color: #E98074;*/ /* Button Background Color */
+    /*color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.3s;*/ /* Button Hover Effect */
+/*}*/
+
 .user-name {
     font-size: 1.5rem;
     margin-top: 10px;
