@@ -1,0 +1,57 @@
+﻿body {
+    font-family: 'Roboto', sans-serif; /* Use Roboto for body text */
+    background-color: #EAE7DC; /* Light background color */
+    color: #8E8D8A; /* Dark grey text color */
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #E98074; /* Orange background color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif; /* Use Poppins for headings */
+    font-weight: bold;
+}
+
+.service-label {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.details {
+    margin: 20px;
+    padding: 20px;
+    background-color: white; /* White background for details */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.details-label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.details-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-button {
+    background-color: #E85A4F; /* Red background color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif; /* Use Montserrat for call-to-action */
+    font-weight: bold;
+}
+
+    .submit-button:hover {
+        background-color: #D8C3A5; /* Darker orange on hover */
+    }

@@ -13,7 +13,7 @@
     <link href="LoginSignup.css" rel="stylesheet" />
     <link href="contactus.css" rel="stylesheet" />
     <link href="profile.css" rel="stylesheet" />
-
+    <link href="bookingDetails.css" rel="stylesheet" />
     <%--css files--%>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
