@@ -14,7 +14,7 @@
       <asp:Button ID="ChangePasswordButton" runat="server" Text="Change Password"  CssClass="profile-button" OnClick="ChangePasswordButton_Click" />
 
       <h2>Help Center</h2>
-      <asp:Button ID="ContactUsButton" runat="server" Text="Contact Us"  CssClass="profile-button" />
+      <asp:Button ID="ContactUsButton" runat="server" Text="Contact Us"  CssClass="profile-button" OnClick="ContactUsButton_Click" />
 
       <h2>Review/Feedback</h2>
       <asp:TextBox ID="FeedbackTextBox" runat="server" TextMode="MultiLine" CssClass="feedback-box" />

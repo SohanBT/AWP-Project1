@@ -13,5 +13,10 @@ namespace AWP_Project
         {
 
         }
+
+        protected void confirmbooking_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("bookingSuccess.aspx");
+        }
     }
 }

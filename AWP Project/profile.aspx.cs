@@ -18,5 +18,10 @@ namespace AWP_Project
         {
             Response.Redirect("changePassword.aspx");
         }
+
+        protected void ContactUsButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("contactus.aspx");
+        }
     }
 }

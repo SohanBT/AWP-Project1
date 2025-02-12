@@ -18,7 +18,7 @@
             <asp:TextBox ID="txtPhone" runat="server" CssClass="details-input"></asp:TextBox>
             <asp:Label ID="lblPincode" runat="server" Text="Pincode" CssClass="details-label"></asp:Label>
             <asp:TextBox ID="txtPincode" runat="server" CssClass="details-input"></asp:TextBox>
-            <asp:Button ID="btnSubmit" runat="server" Text="Submit" CssClass="submit-button"></asp:Button>
+            <asp:Button ID="btnSubmit" runat="server" Text="Submit" CssClass="submit-button" OnClick="btnSubmit_Click"></asp:Button>
         </div>
  <div id="footer" class="footer">
             <p>Thank you for choosing our service!</p>

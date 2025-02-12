@@ -39,7 +39,7 @@
             </div>
 
             <div>
-                <asp:Button ID="confirmbooking" runat="server" CssClass="confirm-booking" Text="Confirm Booking"></asp:Button>
+                <asp:Button ID="confirmbooking" runat="server" CssClass="confirm-booking" Text="Confirm Booking" OnClick="confirmbooking_Click"></asp:Button>
             </div>
 
             <div class="note">

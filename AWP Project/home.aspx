@@ -14,12 +14,12 @@
     <div class="services-section">
         <h2>Our Services</h2>
         <div class="services-buttons">
-            <asp:Button ID="btnService1" runat="server" Text="Carpenter" CssClass="service-button"  />
-            <asp:Button ID="btnService2" runat="server" Text="Plumber" CssClass="service-button"  />
-            <asp:Button ID="btnService3" runat="server" Text="Electrician" CssClass="service-button"  />
-            <asp:Button ID="btnService4" runat="server" Text="Labour" CssClass="service-button"  />
-            <asp:Button ID="btnService5" runat="server" Text="Cleaner" CssClass="service-button"  />
-            <asp:Button ID="btnService6" runat="server" Text="Barber" CssClass="service-button"  />
+            <asp:Button ID="btnService1" runat="server" Text="Carpenter" CssClass="service-button" OnClick="btnService1_Click"  />
+            <asp:Button ID="btnService2" runat="server" Text="Plumber" CssClass="service-button" OnClick="btnService2_Click"  />
+            <asp:Button ID="btnService3" runat="server" Text="Electrician" CssClass="service-button" OnClick="btnService3_Click"  />
+            <asp:Button ID="btnService4" runat="server" Text="Labour" CssClass="service-button" OnClick="btnService4_Click"  />
+            <asp:Button ID="btnService5" runat="server" Text="Cleaner" CssClass="service-button" OnClick="btnService5_Click"  />
+            <asp:Button ID="btnService6" runat="server" Text="Barber" CssClass="service-button" OnClick="btnService6_Click"  />
         </div>
     </div>
     <%--our services section--%>
