@@ -11,7 +11,7 @@
 
     <div class="profile-options">
       <h2>Account Settings</h2>
-      <asp:Button ID="ChangePasswordButton" runat="server" Text="Change Password"  CssClass="profile-button" />
+      <asp:Button ID="ChangePasswordButton" runat="server" Text="Change Password"  CssClass="profile-button" OnClick="ChangePasswordButton_Click" />
 
       <h2>Help Center</h2>
       <asp:Button ID="ContactUsButton" runat="server" Text="Contact Us"  CssClass="profile-button" />

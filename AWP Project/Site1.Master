@@ -15,6 +15,7 @@
     <link href="profile.css" rel="stylesheet" />
     <link href="bookingDetails.css" rel="stylesheet" />
     <link href="billingDetails.css" rel="stylesheet" />
+    <link href="changePassword.css" rel="stylesheet" />
     <%--css files--%>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>

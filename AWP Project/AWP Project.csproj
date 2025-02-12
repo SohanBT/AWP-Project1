@@ -79,6 +79,7 @@
     <Content Include="profile.css" />
     <Content Include="bookingDetails.css" />
     <Content Include="billingDetails.css" />
+    <Content Include="changePassword.css" />
     <Content Include="Web.config" />
     <Content Include="home.aspx" />
     <Content Include="aboutus.aspx" />
@@ -87,6 +88,7 @@
     <Content Include="profile.aspx" />
     <Content Include="bookingDetails.aspx" />
     <Content Include="billingDetails.aspx" />
+    <Content Include="changePassword.aspx" />
     <Content Include="x logo.png" />
   </ItemGroup>
   <ItemGroup>
@@ -146,6 +148,13 @@
     </Compile>
     <Compile Include="billingDetails.aspx.designer.cs">
       <DependentUpon>billingDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="changePassword.aspx.cs">
+      <DependentUpon>changePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="changePassword.aspx.designer.cs">
+      <DependentUpon>changePassword.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
