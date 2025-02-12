@@ -1,0 +1,104 @@
+﻿
+/* Billing container */
+.billing-container {
+    background-color: #EAE7DC;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 450px;
+    margin: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    /* Billing heading */
+    .billing-container .billing-heading {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+        color: #E85A4F;
+        margin-bottom: 15px;
+    }
+
+    /* Bill section */
+    .billing-container .bill-section {
+        background-color: #D8C3A5;
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    /* Bill items */
+    .billing-container .bill-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 0;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: #8E8D8A;
+        border-bottom: 1px solid #8E8D8A;
+    }
+
+        .billing-container .bill-item:last-child {
+            border-bottom: none;
+        }
+
+    /* Total amount */
+    .billing-container .bill-total {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        color: #E85A4F;
+        padding: 12px 0;
+        border-top: 2px solid #E98074;
+        margin-top: 10px;
+    }
+
+    /* Payment method */
+    .billing-container .payment-method {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: #8E8D8A;
+        padding: 10px 0;
+    }
+
+    /* Note section */
+    .billing-container .note {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        color: #E85A4F;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    /* Scoped labels */
+    .billing-container .bill-value,
+    .billing-container .total-value,
+    .billing-container .note-text {
+        font-weight: bold;
+    }
+
+    /* Confirm Booking Button */
+    .billing-container .confirm-booking {
+        display: block;
+        width: 100%;
+        background-color: #E85A4F;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 12px;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        cursor: pointer;
+        margin-top: 15px;
+        transition: background 0.3s ease;
+    }
+
+        /* Hover effect */
+        .billing-container .confirm-booking:hover {
+            background-color: #E98074;
+        }

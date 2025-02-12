@@ -78,6 +78,7 @@
     <Content Include="profile logo.png" />
     <Content Include="profile.css" />
     <Content Include="bookingDetails.css" />
+    <Content Include="billingDetails.css" />
     <Content Include="Web.config" />
     <Content Include="home.aspx" />
     <Content Include="aboutus.aspx" />
@@ -85,6 +86,7 @@
     <Content Include="contactus.aspx" />
     <Content Include="profile.aspx" />
     <Content Include="bookingDetails.aspx" />
+    <Content Include="billingDetails.aspx" />
     <Content Include="x logo.png" />
   </ItemGroup>
   <ItemGroup>
@@ -137,6 +139,13 @@
     </Compile>
     <Compile Include="bookingDetails.aspx.designer.cs">
       <DependentUpon>bookingDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="billingDetails.aspx.cs">
+      <DependentUpon>billingDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="billingDetails.aspx.designer.cs">
+      <DependentUpon>billingDetails.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
